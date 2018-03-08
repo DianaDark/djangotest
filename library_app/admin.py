@@ -1,6 +1,7 @@
 from django.contrib import admin
-from library_app.models import Category
 
 # Register your models here.
+from .models import Job, Employee
 
-admin.site.register(Category)
+admin.site.register(Job)
+admin.site.register(Employee)
